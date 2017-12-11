@@ -1,10 +1,10 @@
-myApp.directive('todolistCtrl', function () {
+myApp.directive('todolist', function () {
     return {
         restrict: 'E',
-        replace: false,
+        replace: true,
         transclude: true,
         templateUrl: 'angular/directives/to-do-list/to-do-list.html',
-        link: function (scope, element, attrs) {
+        link: function () {
             const addItems = document.querySelector('#add-items');
             const selectAll = document.querySelector('[name=select-all]');
             const unSelectAll = document.querySelector('[name=unselect-all]');
