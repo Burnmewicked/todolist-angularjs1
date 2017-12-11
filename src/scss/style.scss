@@ -1,0 +1,25 @@
+body {
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #928DAB, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #928DAB, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+}
+
+#main-element {
+    margin-top: 100px;
+}
+
+.list-group-item {
+    padding: 10px;
+    color: #111;
+    input[type=checkbox] {
+        box-sizing: border-box;
+        margin-right: 5px;
+    }
+    input[type=checkbox]:checked+label.strikey {
+        text-decoration: line-through;
+    }
+}

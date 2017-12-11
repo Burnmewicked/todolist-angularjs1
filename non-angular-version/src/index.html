@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top py-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <h3>To Do List</h3>
+            </a>
+        </div>
+    </div>
+    <div class="section py-4" id="main-element">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-header">
+                            <form class="form-inline" id="add-items">
+                                <input type="text" name="item" class="form-control mr-2" placeholder="New item">
+                                <button class="btn btn-light" type="submit">Add item</button>
+                            </form>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group" id="theList">
+                                <!-- <li class="list-group-item first-item">
+                                    <input type="checkbox"/>
+                                    <label class="strikey">Potatoes</label> 
+                                </li> -->
+                            </ul>
+                            <div class="mt-4" role="group">
+                                <button type="button" name="select-all" class="btn btn-light">Select All</button>
+                                <button type="button" name="unselect-all" class="btn btn-light">Unselect All</button>
+                                <button type="button" name="clear-all" class="btn btn-light">Clear All</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

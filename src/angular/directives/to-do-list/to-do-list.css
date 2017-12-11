@@ -1,0 +1,8 @@
+.list-group-item {
+  padding: 10px;
+  color: #111; }
+  .list-group-item input[type=checkbox] {
+    box-sizing: border-box;
+    margin-right: 5px; }
+  .list-group-item input[type=checkbox]:checked + label.strikey {
+    text-decoration: line-through; }
